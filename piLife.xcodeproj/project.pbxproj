@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		980D2CF619DED93600B42CBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D2CF519DED93600B42CBB /* main.m */; };
+		980D2CF919DED93600B42CBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D2CF819DED93600B42CBB /* AppDelegate.m */; };
+		980D2CFC19DED93600B42CBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D2CFB19DED93600B42CBB /* ViewController.m */; };
+		980D2CFF19DED93600B42CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980D2CFD19DED93600B42CBB /* Main.storyboard */; };
+		980D2D0119DED93600B42CBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980D2D0019DED93600B42CBB /* Images.xcassets */; };
+		980D2D0419DED93600B42CBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 980D2D0219DED93600B42CBB /* LaunchScreen.xib */; };
+		980D2D1019DED93600B42CBB /* piLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D2D0F19DED93600B42CBB /* piLifeTests.m */; };
+		980D2D5219E3083C00B42CBB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980D2D5119E3083C00B42CBB /* CFNetwork.framework */; };
+		980D2D5B19E3205600B42CBB /* NSMutableURLRequest+BasicAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 980D2D5A19E3205600B42CBB /* NSMutableURLRequest+BasicAuth.m */; };
+		98FDB74019E578E300A3C9DD /* piHouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FDB73F19E578E300A3C9DD /* piHouse.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		980D2D0A19DED93600B42CBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D2CE819DED93600B42CBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 980D2CEF19DED93600B42CBB;
+			remoteInfo = piLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		980D2CF019DED93600B42CBB /* piLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		980D2CF419DED93600B42CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980D2CF519DED93600B42CBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		980D2CF719DED93600B42CBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		980D2CF819DED93600B42CBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		980D2CFA19DED93600B42CBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		980D2CFB19DED93600B42CBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		980D2CFE19DED93600B42CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		980D2D0019DED93600B42CBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		980D2D0319DED93600B42CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		980D2D0919DED93600B42CBB /* piLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		980D2D0E19DED93600B42CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980D2D0F19DED93600B42CBB /* piLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = piLifeTests.m; sourceTree = "<group>"; };
+		980D2D5119E3083C00B42CBB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		980D2D5919E3205600B42CBB /* NSMutableURLRequest+BasicAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+BasicAuth.h"; sourceTree = "<group>"; };
+		980D2D5A19E3205600B42CBB /* NSMutableURLRequest+BasicAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+BasicAuth.m"; sourceTree = "<group>"; };
+		98FDB73F19E578E300A3C9DD /* piHouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piHouse.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		980D2CED19DED93600B42CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980D2D5219E3083C00B42CBB /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980D2D0619DED93600B42CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		980D2CE719DED93600B42CBB = {
+			isa = PBXGroup;
+			children = (
+				980D2D5119E3083C00B42CBB /* CFNetwork.framework */,
+				980D2CF219DED93600B42CBB /* piLife */,
+				980D2D0C19DED93600B42CBB /* piLifeTests */,
+				980D2CF119DED93600B42CBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		980D2CF119DED93600B42CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				980D2CF019DED93600B42CBB /* piLife.app */,
+				980D2D0919DED93600B42CBB /* piLifeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		980D2CF219DED93600B42CBB /* piLife */ = {
+			isa = PBXGroup;
+			children = (
+				98FDB73F19E578E300A3C9DD /* piHouse.png */,
+				980D2CF719DED93600B42CBB /* AppDelegate.h */,
+				980D2CF819DED93600B42CBB /* AppDelegate.m */,
+				980D2CFA19DED93600B42CBB /* ViewController.h */,
+				980D2CFB19DED93600B42CBB /* ViewController.m */,
+				980D2CFD19DED93600B42CBB /* Main.storyboard */,
+				980D2D0019DED93600B42CBB /* Images.xcassets */,
+				980D2D0219DED93600B42CBB /* LaunchScreen.xib */,
+				980D2CF319DED93600B42CBB /* Supporting Files */,
+				980D2D5919E3205600B42CBB /* NSMutableURLRequest+BasicAuth.h */,
+				980D2D5A19E3205600B42CBB /* NSMutableURLRequest+BasicAuth.m */,
+			);
+			path = piLife;
+			sourceTree = "<group>";
+		};
+		980D2CF319DED93600B42CBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				980D2CF419DED93600B42CBB /* Info.plist */,
+				980D2CF519DED93600B42CBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		980D2D0C19DED93600B42CBB /* piLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				980D2D0F19DED93600B42CBB /* piLifeTests.m */,
+				980D2D0D19DED93600B42CBB /* Supporting Files */,
+			);
+			path = piLifeTests;
+			sourceTree = "<group>";
+		};
+		980D2D0D19DED93600B42CBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				980D2D0E19DED93600B42CBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		980D2CEF19DED93600B42CBB /* piLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980D2D1319DED93600B42CBB /* Build configuration list for PBXNativeTarget "piLife" */;
+			buildPhases = (
+				980D2CEC19DED93600B42CBB /* Sources */,
+				980D2CED19DED93600B42CBB /* Frameworks */,
+				980D2CEE19DED93600B42CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piLife;
+			productName = piLife;
+			productReference = 980D2CF019DED93600B42CBB /* piLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		980D2D0819DED93600B42CBB /* piLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980D2D1619DED93600B42CBB /* Build configuration list for PBXNativeTarget "piLifeTests" */;
+			buildPhases = (
+				980D2D0519DED93600B42CBB /* Sources */,
+				980D2D0619DED93600B42CBB /* Frameworks */,
+				980D2D0719DED93600B42CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980D2D0B19DED93600B42CBB /* PBXTargetDependency */,
+			);
+			name = piLifeTests;
+			productName = piLifeTests;
+			productReference = 980D2D0919DED93600B42CBB /* piLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		980D2CE819DED93600B42CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Virginia Ng";
+				TargetAttributes = {
+					980D2CEF19DED93600B42CBB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					980D2D0819DED93600B42CBB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 980D2CEF19DED93600B42CBB;
+					};
+				};
+			};
+			buildConfigurationList = 980D2CEB19DED93600B42CBB /* Build configuration list for PBXProject "piLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 980D2CE719DED93600B42CBB;
+			productRefGroup = 980D2CF119DED93600B42CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				980D2CEF19DED93600B42CBB /* piLife */,
+				980D2D0819DED93600B42CBB /* piLifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		980D2CEE19DED93600B42CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980D2CFF19DED93600B42CBB /* Main.storyboard in Resources */,
+				980D2D0419DED93600B42CBB /* LaunchScreen.xib in Resources */,
+				980D2D0119DED93600B42CBB /* Images.xcassets in Resources */,
+				98FDB74019E578E300A3C9DD /* piHouse.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980D2D0719DED93600B42CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		980D2CEC19DED93600B42CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980D2D5B19E3205600B42CBB /* NSMutableURLRequest+BasicAuth.m in Sources */,
+				980D2CFC19DED93600B42CBB /* ViewController.m in Sources */,
+				980D2CF919DED93600B42CBB /* AppDelegate.m in Sources */,
+				980D2CF619DED93600B42CBB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		980D2D0519DED93600B42CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980D2D1019DED93600B42CBB /* piLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		980D2D0B19DED93600B42CBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 980D2CEF19DED93600B42CBB /* piLife */;
+			targetProxy = 980D2D0A19DED93600B42CBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		980D2CFD19DED93600B42CBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980D2CFE19DED93600B42CBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		980D2D0219DED93600B42CBB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980D2D0319DED93600B42CBB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		980D2D1119DED93600B42CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		980D2D1219DED93600B42CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		980D2D1419DED93600B42CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = piLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		980D2D1519DED93600B42CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = piLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		980D2D1719DED93600B42CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = piLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piLife.app/piLife";
+			};
+			name = Debug;
+		};
+		980D2D1819DED93600B42CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = piLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piLife.app/piLife";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		980D2CEB19DED93600B42CBB /* Build configuration list for PBXProject "piLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980D2D1119DED93600B42CBB /* Debug */,
+				980D2D1219DED93600B42CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980D2D1319DED93600B42CBB /* Build configuration list for PBXNativeTarget "piLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980D2D1419DED93600B42CBB /* Debug */,
+				980D2D1519DED93600B42CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980D2D1619DED93600B42CBB /* Build configuration list for PBXNativeTarget "piLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980D2D1719DED93600B42CBB /* Debug */,
+				980D2D1819DED93600B42CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 980D2CE819DED93600B42CBB /* Project object */;
+}
