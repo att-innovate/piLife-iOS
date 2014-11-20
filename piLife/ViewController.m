@@ -54,6 +54,7 @@
 
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     [self getOAuth];
@@ -187,7 +188,7 @@ numberOfRowsInComponent:(NSInteger)component {
         NSData *jsonData = [NSJSONSerialization dataWithJSONObject:updateDict options:NSJSONWritingPrettyPrinted error:&error];
         NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
         
-        NSString *urlString = [NSString stringWithFormat:@"%@%@", baseURL, @"/updatePiDevices/cmd"];
+        NSString *urlString = [NSString stringWithFormat:@"%@%@", baseURL, @"/getDevices/cmd"];
         
         NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:urlString]];
         [urlRequest setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];

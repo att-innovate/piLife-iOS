@@ -10,22 +10,26 @@
 	<string>piLife</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>1F7D5B0CAEEDB3C94C66D7C817AF884E5F670F0B</key>
+		<string>https://stash.tfoundry.com/scm/atl/piLife.git</string>
 		<key>3F82CD2C93424F4BC2446E84620B4316FC14BF31</key>
 		<string>http://10.224.2.24/DL_PPThings.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>piLife/piLife.xcodeproj</string>
+	<string>piLife.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>1F7D5B0CAEEDB3C94C66D7C817AF884E5F670F0B</key>
+		<string>../..</string>
 		<key>3F82CD2C93424F4BC2446E84620B4316FC14BF31</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://10.224.2.24/DL_PPThings.git</string>
+	<string>https://stash.tfoundry.com/scm/atl/piLife.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3F82CD2C93424F4BC2446E84620B4316FC14BF31</string>
+	<string>1F7D5B0CAEEDB3C94C66D7C817AF884E5F670F0B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>3F82CD2C93424F4BC2446E84620B4316FC14BF31</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iphone%20apps</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F7D5B0CAEEDB3C94C66D7C817AF884E5F670F0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>piLife</string>
 		</dict>
 	</array>
 </dict>
