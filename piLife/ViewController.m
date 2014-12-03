@@ -17,8 +17,8 @@
 #define baseURL @"https://atlantafoundry-test.apigee.net"
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
-#define getDevicesClientID @"CElTy869h5atDJpsWNGAKwGQOtZKrlOO"
-#define getDevicesClientSecret @"K45Jo4upESKzpRVp"
+#define getDevicesClientID @"YourClientID"
+#define getDevicesClientSecret @"YourClientSecret"
 
 
 @interface ViewController ()
@@ -247,7 +247,7 @@ numberOfRowsInComponent:(NSInteger)component {
     [urlRequest setHTTPMethod:@"POST"];
     authStr = [NSString stringWithFormat:@"%@:%@", getDevicesClientID, getDevicesClientSecret];
     NSData *authData = [authStr dataUsingEncoding:NSUTF8StringEncoding];
-    NSString *authValue = [NSString stringWithFormat:@"Basic %@", [authData base64Encoding]];
+    NSString *authValue = [NSString stringWithFormat:@"Basic %@", [authData base64EncodedStringWithOptions:0]];
     [urlRequest setValue:authValue forHTTPHeaderField:@"Authorization"];
 
     [self sendRequest:urlRequest];

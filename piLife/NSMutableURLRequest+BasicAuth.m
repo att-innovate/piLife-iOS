@@ -1,9 +1,9 @@
 //
 //  NSMutableURLRequest+BasicAuth.m
-//  piLife
+//  ID.me Scan
 //
-//  Created by Virginia Ng on 10/6/14.
-//  Copyright (c) 2014 Virginia Ng. All rights reserved.
+//  Created by Arthur Sabintsev on 9/9/13.
+//  Copyright (c) 2013 ID.me, Inc. All rights reserved.
 //
 
 #import "NSMutableURLRequest+BasicAuth.h"
