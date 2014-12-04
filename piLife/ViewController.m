@@ -17,8 +17,8 @@
 #define baseURL @"https://atlantafoundry-test.apigee.net"
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
-#define getDevicesClientID @"YourClientID"
-#define getDevicesClientSecret @"YourClientSecret"
+#define getDevicesConsumerKey @"yourConsumerKey"
+#define getDevicesConsumerSecret @"yourConsumerSecret"
 
 
 @interface ViewController ()
@@ -245,7 +245,7 @@ numberOfRowsInComponent:(NSInteger)component {
     NSString *authStr = nil;
     NSMutableURLRequest *urlRequest = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:urlString]];
     [urlRequest setHTTPMethod:@"POST"];
-    authStr = [NSString stringWithFormat:@"%@:%@", getDevicesClientID, getDevicesClientSecret];
+    authStr = [NSString stringWithFormat:@"%@:%@", getDevicesConsumerKey, getDevicesConsumerSecret];
     NSData *authData = [authStr dataUsingEncoding:NSUTF8StringEncoding];
     NSString *authValue = [NSString stringWithFormat:@"Basic %@", [authData base64EncodedStringWithOptions:0]];
     [urlRequest setValue:authValue forHTTPHeaderField:@"Authorization"];
@@ -296,7 +296,7 @@ numberOfRowsInComponent:(NSInteger)component {
     NSString *clientID = [json objectForKey:@"client_id"];
     
     if ([json objectForKey:@"access_token"] != nil) {
-        if ([clientID isEqualToString:getDevicesClientID] ) {
+        if ([clientID isEqualToString:getDevicesConsumerKey] ) {
             _accessToken = [json objectForKey:@"access_token"];
             NSLog(@"access_token: %@", _accessToken);
             [self getDeviceInformation];
