@@ -14,7 +14,7 @@
 #define kPickerDevice 2
 #define kPickerValue 3
 
-#define baseURL @"https://atlantafoundry-test.apigee.net"
+#define baseURL @"https://att-atl-foundry-prod.apigee.net"
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 
 #define getDevicesConsumerKey @"yourConsumerKey"
